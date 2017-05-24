@@ -1,0 +1,24 @@
+# conda requirements file
+name: jaccard-segment
+channels:
+- soumith
+- defaults
+dependencies:
+- python=2
+- ipykernel
+- matplotlib
+- numpy
+- scikit-image
+- scipy
+- cuda80
+- pytorch
+- torchvision
+- pyyaml
+- pip:
+  - hickle
+  - pillow-simd
+  - https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.0.1-cp27-none-linux_x86_64.whl; 'linux' in sys_platform
+  - tqdm
+  - futures
+  - tensorboard
+
