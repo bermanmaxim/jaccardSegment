@@ -1,6 +1,6 @@
-# Deeplab-resnet-101 Pytorch with Jaccard loss
+# Deeplab-resnet-101 Pytorch with Lovász hinge loss
 
-Train deeplab-resnet-101 with binary Jaccard loss surrogate, the Jaccard hinge, as described in [http://arxiv.org/abs/1705.08790](http://arxiv.org/abs/1705.08790].
+Train deeplab-resnet-101 with binary Jaccard loss surrogate, the Lovász hinge, as described in [http://arxiv.org/abs/1705.08790](http://arxiv.org/abs/1705.08790).
 
 Parts of the code is adapted from [tensorflow-deeplab-resnet](https://github.com/DrSleep/) (in particular the conversion from caffe to tensorflow with kaffe).
 
