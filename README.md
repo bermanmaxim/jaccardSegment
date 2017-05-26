@@ -2,7 +2,7 @@
 
 Train deeplab-resnet-101 with binary Jaccard loss surrogate, the Lovász hinge, as described in [http://arxiv.org/abs/1705.08790](http://arxiv.org/abs/1705.08790).
 
-Parts of the code is adapted from [tensorflow-deeplab-resnet](https://github.com/DrSleep/) (in particular the conversion from caffe to tensorflow with kaffe).
+Parts of the code is adapted from [tensorflow-deeplab-resnet](https://github.com/DrSleep/tensorflow-deeplab-resnet) (in particular the conversion from caffe to tensorflow with kaffe).
 
 The code has not been tested for full training of Deeplab-Resnet yet. Refer to [tensorflow-deeplab-resnet](https://github.com/DrSleep/tensorflow-deeplab-resnet) and possibly extract the weights after training with that framework.
 
