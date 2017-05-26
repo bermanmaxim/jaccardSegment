@@ -1,6 +1,6 @@
 # Deeplab-resnet-101 Pytorch with Jaccard loss
 
-Train deeplab-resnet-101 with binary Jaccard loss surrogate, the Jaccard hinge.
+Train deeplab-resnet-101 with binary Jaccard loss surrogate, the Jaccard hinge, as described in [http://arxiv.org/abs/1705.08790](http://arxiv.org/abs/1705.08790].
 
 Parts of the code is adapted from [tensorflow-deeplab-resnet](https://github.com/DrSleep/) (in particular the conversion from caffe to tensorflow with kaffe).
 
@@ -8,6 +8,25 @@ The code has not been tested for full training of Deeplab-Resnet yet. Refer to [
 
 ## Code status
 The code is in early stage. Pull requests welcome.
+
+## Citation
+Please cite
+```
+@ARTICLE{2017arXiv170508790B,
+   author = {{Berman}, M. and {Blaschko}, M.~B.},
+    title = "{Optimization of the Jaccard index for image segmentation with the Lov$\backslash$'asz hinge}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1705.08790},
+ primaryClass = "cs.CV",
+ keywords = {Computer Science - Computer Vision and Pattern Recognition},
+     year = 2017,
+    month = may,
+   adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170508790B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
+if you use the code.
 
 ## Dependencies and weights
 Relies notably on [Pytorch](http://pytorch.org/) and the standalone [tensorboard](https://github.com/dmlc/tensorboard/tree/master/python) package
