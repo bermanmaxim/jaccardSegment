@@ -14,7 +14,7 @@ Please cite
 ```
 @ARTICLE{2017arXiv170508790B,
    author = {{Berman}, M. and {Blaschko}, M.~B.},
-    title = "{Optimization of the Jaccard index for image segmentation with the Lov$\backslash$'asz hinge}",
+    title = "{Optimization of the Jaccard index for image segmentation with the Lov\'asz hinge}",
   journal = {ArXiv e-prints},
 archivePrefix = "arXiv",
    eprint = {1705.08790},
@@ -23,7 +23,6 @@ archivePrefix = "arXiv",
      year = 2017,
     month = may,
    adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170508790B},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
 if you use the code.
